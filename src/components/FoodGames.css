@@ -1,0 +1,81 @@
+.food-game-container {
+    background: url('./food2.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(238, 237, 237, 0.2);
+    object-fit: contain;
+  }
+
+  .food-game-container .heading {
+    color: rgb(248, 247, 240);
+    text-shadow: 2px 2px 2px #68535d;
+  }
+
+  .food-game-container img {
+    box-shadow: 3px 3px #5b6e59;
+    color: #8b7f6a;
+  }
+
+  .food-game-container img:hover {
+    box-shadow: 3px 3px 3px 3px #5b6e59;
+  }
+  
+  .food-game {
+    background-color: rgba(249, 250, 249, 0.938) ;
+    box-shadow: 2px 2px 2px 2px rgb(155, 138, 110);
+    justify-content: center;
+    width: 65%;
+    height: 80%;
+    margin: 20px 0 0;
+    border-radius: 40px;
+  }
+
+  .food-game-heading {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: rgb(17, 51, 28);
+    text-shadow: 1px 1px 1px rgb(155, 161, 157);
+  }
+
+  .food-game-container .text-riddle {
+    color: rgb(17, 51, 28);
+    font-size: 16px;
+  }
+
+  .letter {
+    border-bottom: 3px solid rgb(17, 51, 28);
+    color: rgb(17, 51, 28);
+  }
+
+  .food-game-container .heading {
+    margin: -10px 0 0;
+  }
+
+  .food-game-container .wrong-letters-container{
+    color: rgb(17, 51, 28);
+    
+  }
+
+  .popup{
+      background: #FEFFE8;
+  }
+
+  .popup button {
+    background-color: #C0EFF6;
+    color : #2a4d1c;
+    text-shadow: 1px 1px 1px #9b9881;
+    font-size: large; 
+    border-radius: 5px;
+  }
+
+  .popup button:hover {
+    box-shadow: 2px 2px 2px 2px #596e5a;
+  }
+  
+
+  

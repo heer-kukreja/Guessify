@@ -1,0 +1,80 @@
+.farm-game-container {
+    background: url('./farm.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(126, 125, 125, 0.2);
+    object-fit: contain;
+  }
+
+  .farm-game-container .heading {
+    text-shadow: 2px 2px 2px #5b6e59;
+  }
+
+  .farm-game-container img {
+    box-shadow: 3px 3px #5b6e59;
+    color: #8b7f6a;
+  }
+
+  .farm-game-container img:hover {
+    box-shadow: 3px 3px 3px 3px #5b6e59;
+  }
+  
+  .farm-game {
+    background-color: rgba(194, 235, 245, 0.918) ;
+    box-shadow: 2px 2px 2px 2px rgb(95, 137, 153);
+    justify-content: center;
+    width: 65%;
+    height: 80%;
+    margin: 20px 0 0;
+    border-radius: 40px;
+  }
+
+  .farm-game-heading {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: rgb(17, 51, 28);
+    text-shadow: 1px 1px 1px rgb(17, 51, 28);
+  }
+
+  .farm-game-container .text-riddle {
+    color: rgb(17, 51, 28);
+    font-size: 16px;
+  }
+
+  .letter {
+    border-bottom: 3px solid rgb(17, 51, 28);
+    color: rgb(17, 51, 28);
+  }
+
+  .farm-game-container .heading {
+    margin: -10px 0 0;
+  }
+
+  .farm-game-container .wrong-letters-container{
+    color: rgb(17, 51, 28);
+    
+  }
+
+  .popup{
+      background: #AFF1F1;
+  }
+
+  .popup button {
+    background-color: #F9F4CF;
+    color : #2a4d1c;
+    text-shadow: 1px 1px 1px #9b9881;
+    font-size: large; 
+    border-radius: 5px;
+  }
+
+  .popup button:hover {
+    box-shadow: 2px 2px 2px 2px #596e5a;
+  }
+  
+
+  
