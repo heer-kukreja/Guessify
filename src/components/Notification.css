@@ -1,0 +1,26 @@
+.notification-container {
+    background-color: rgba(8, 78, 40, 0.767);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px 10px 0 0;
+    padding: 15px 20px;
+    transition: transform 0.3s ease-in-out;
+    bottom: -50px;
+    visibility: hidden;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  
+  .notification-container p {
+    color: rgb(224, 241, 122);
+    margin: 0%;
+    font-size: 22px;
+   }
+  
+  .notification-container.show {
+    transform: translateY(-49px);
+    visibility: visible;
+    justify-content: center;
+  }

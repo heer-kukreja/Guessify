@@ -1,0 +1,16 @@
+.wrong-letters-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 37%;
+  text-align: center;
+}
+
+.wrong-letters-container p {
+  margin: 0 0 5px;
+  display: inline;
+  font-size: 24px;
+}
+
+.wrong-letters-container span {
+  font-size: 24px;
+}
