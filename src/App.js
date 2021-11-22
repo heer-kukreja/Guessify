@@ -5,7 +5,7 @@ import GameWild from './components/pages/GameWild'
 import GameFarm from './components/pages/GameFarm'
 import GameFood from './components/pages/GameFood'
 import GameSection from './components/GameSection'
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import {HashRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css';
 import SettingsPage from './components/pages/SettingsPage'
 import Stats from './components/pages/Stats'
