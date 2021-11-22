@@ -2,7 +2,6 @@ import React from 'react'
 import './Word.css'
 
 function Word({selectedWord, correctLetters, selectedRiddle}) {
-    var riddle = selectedRiddle.selectedRiddle;
 
     return (
         <div className='word'>

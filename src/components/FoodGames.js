@@ -22,9 +22,7 @@ let selectedRiddle = riddles[ran];
 let selectedGif = gifs[ran];
 
 function FoodGames() {
-    
-    let status = '';
-    
+        
     const [playable, setPlayable] = useState(true);
     const [correctLetters, setCorrectLetters] = useState([]);
     const [wrongLetters, setWrongLetters] = useState([]);
@@ -94,7 +92,7 @@ function FoodGames() {
 
     function removeItem(array, item){
         for(var i in array){
-            if(array[i]==item){
+            if(array[i]===item){
                 array.splice(i,1);
                 break;
             }
@@ -105,8 +103,8 @@ function FoodGames() {
 
   function saveLocalWords (status, selectedWord) {
 
-    var correctWords = new Array();
-    var wrongWords = new Array();
+    var correctWords = [];
+    var wrongWords = [];
 
     if (status==='win') {
 
