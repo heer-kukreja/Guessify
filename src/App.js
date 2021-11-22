@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename="/Guessify">
         <Switch>
           <Route path='/' exact component = {Home} />
           <Route path='/game-themes' exact component = {Themes} />
