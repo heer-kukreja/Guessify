@@ -5,7 +5,7 @@ import GameWild from './components/pages/GameWild'
 import GameFarm from './components/pages/GameFarm'
 import GameFood from './components/pages/GameFood'
 import GameSection from './components/GameSection'
-import {HashRouter as Router, Switch, Route } from 'react-router-dom'
+import {HashRouter, Switch, Route } from 'react-router-dom'
 import './App.css';
 import SettingsPage from './components/pages/SettingsPage'
 import Stats from './components/pages/Stats'
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <Router basename={window.location.pathname || ''}>
+      <HashRouter basename='/Guessify'>
         <Switch>
           <Route path='/' exact component = {Home} />
           <Route path='/game-themes' exact component = {Themes} />
