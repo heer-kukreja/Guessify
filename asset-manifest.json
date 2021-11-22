@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Guessify/static/css/main.bdd0c14c.chunk.css",
-    "main.js": "/Guessify/static/js/main.d2f8381a.chunk.js",
-    "main.js.map": "/Guessify/static/js/main.d2f8381a.chunk.js.map",
+    "main.js": "/Guessify/static/js/main.edfb3911.chunk.js",
+    "main.js.map": "/Guessify/static/js/main.edfb3911.chunk.js.map",
     "runtime-main.js": "/Guessify/static/js/runtime-main.0a041af2.js",
     "runtime-main.js.map": "/Guessify/static/js/runtime-main.0a041af2.js.map",
-    "static/js/2.f314b993.chunk.js": "/Guessify/static/js/2.f314b993.chunk.js",
-    "static/js/2.f314b993.chunk.js.map": "/Guessify/static/js/2.f314b993.chunk.js.map",
+    "static/js/2.2c4458bc.chunk.js": "/Guessify/static/js/2.2c4458bc.chunk.js",
+    "static/js/2.2c4458bc.chunk.js.map": "/Guessify/static/js/2.2c4458bc.chunk.js.map",
     "index.html": "/Guessify/index.html",
     "static/css/main.bdd0c14c.chunk.css.map": "/Guessify/static/css/main.bdd0c14c.chunk.css.map",
-    "static/js/2.f314b993.chunk.js.LICENSE.txt": "/Guessify/static/js/2.f314b993.chunk.js.LICENSE.txt",
+    "static/js/2.2c4458bc.chunk.js.LICENSE.txt": "/Guessify/static/js/2.2c4458bc.chunk.js.LICENSE.txt",
     "static/media/Statistics.css": "/Guessify/static/media/class.fc322ab7.jpg",
     "static/media/FarmAnimalsGames.css": "/Guessify/static/media/farm.32a07e99.jpg",
     "static/media/FoodGames.css": "/Guessify/static/media/food2.5256ca1e.jpg",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0a041af2.js",
-    "static/js/2.f314b993.chunk.js",
+    "static/js/2.2c4458bc.chunk.js",
     "static/css/main.bdd0c14c.chunk.css",
-    "static/js/main.d2f8381a.chunk.js"
+    "static/js/main.edfb3911.chunk.js"
   ]
 }
