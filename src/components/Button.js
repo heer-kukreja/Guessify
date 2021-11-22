@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const STYLES = ['btn--primary', 'btn--outline']
 
-const SIZES = ['btn--med', 'btn--large']
+//const SIZES = ['btn--med', 'btn--large']
 
 export const Button = ({
     children, 
@@ -15,7 +15,7 @@ export const Button = ({
 }) => {
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
 
-    const checkButtonSize = STYLES.includes(buttonSize) ? buttonStyle : SIZES[0];
+    //const checkButtonSize = STYLES.includes(buttonSize) ? buttonStyle : SIZES[0];
 
     return (
         <Link to='/game-themes' className='btn-theme'>

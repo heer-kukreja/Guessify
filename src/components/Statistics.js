@@ -3,11 +3,11 @@ import Header from './Header';
 import './Statistics.css'
 
 function Statistics() {
-    let nwins = localStorage.getItem('wins');
-    let nlosses = localStorage.getItem('loss');
+    let nwins = localStorage.getItem('wins') || '0';
+    let nlosses = localStorage.getItem('loss') || '0';
     let cwords = JSON.parse(localStorage.getItem('correctWords'));
     let wwords = JSON.parse(localStorage.getItem('wrongWords'));
-    let total = parseInt(nwins)+ parseInt(nlosses)
+    let total = parseInt(nwins)+ parseInt(nlosses) || '0';
 
     return (
         <div className='stats-container'>

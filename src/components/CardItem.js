@@ -13,7 +13,7 @@ function CardItem(props) {
         <div className='cards__item__info'>
             <h5 className='cards__item__text'>{props.text}</h5>
         </div>
-        <i class="fas fa-chevron-right" style={{
+        <i className="fas fa-chevron-right" style={{
           color: '#fadea7',
           fontSize: '30px',
           textShadow: '2px 2px 2px #8b7f6a'

@@ -26,9 +26,9 @@ function HeroSection() {
       </div>
       <div  className='hero-links'>
         <Link to="/player-stats" className='player-stats'>
-                  <i style={{position: 'fixed', color: '#fffcf7', marginLeft: '-420px', marginTop: '130px', fontSize: '80px', textShadow: '-3px 3px 3px #787878'}} class='fas fa-poll'></i>
+                  <i style={{position: 'fixed', color: '#fffcf7', marginLeft: '-420px', marginTop: '130px', fontSize: '80px', textShadow: '-3px 3px 3px #787878'}} className='fas fa-poll'></i>
         </Link>   
-        {/* <button className='settings-btn' onClick={() => setSettingsPopup(true)}> {<i style={{alignItems: 'flex-start', color: '#999999', fontSize: '60px', textShadow: '-5px 5px #787878'}} class='fas fa-cogs' />} </button>  */}
+        {/* <button className='settings-btn' onClick={() => setSettingsPopup(true)}> {<i style={{alignItems: 'flex-start', color: '#999999', fontSize: '60px', textShadow: '-5px 5px #787878'}} 'fas fa-cogs' />} </button>  */}
       </div>
       <Settings trigger={settingsPopup} setSettingsPopup={setSettingsPopup}/>
     </div>
