@@ -19,12 +19,12 @@ function Statistics() {
                 <div className='correct'>
                     <h3>Correct Guesses</h3>
                     <hr />
-                    {cwords.map(el => (<p className='correct-words'>{el}</p>))}
+                    {cwords && cwords.map(el => (<p className='correct-words'>{el}</p>))}
                 </div>
                 <div className='wrong'> 
                     <h3>Words yet to master</h3>
                     <hr />
-                    {wwords.map(el => (<p className='wrong-words'>{el}</p>))}
+                    {wwords && wwords.map(el => (<p className='wrong-words'>{el}</p>))}
                 </div>
             </div>
         </div>

@@ -30,7 +30,7 @@ function HeroSection() {
         </Button>
       </div>
       <div  className='hero-links'>
-        <Link to="/" className='player-stats'>
+        <Link to="/player-stats" className='player-stats'>
                   <i style={{alignItems: 'flex-start', color: '#8c8c8c', marginLeft: '-490px', fontSize: '80px', transform: 'rotate(-9deg)', textShadow: '-5px 5px #bfbfbf'}} className='fas fa-user'></i>
         </Link>   
         <Link to="/" className='game-settings'>

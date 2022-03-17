@@ -11,7 +11,7 @@ import './FoodGames.css';
 
 const words = ['coconut', 'potato', 'broccoli', 'tomato'];
 const riddles = ["I’ve a brown shell on the outside \nAnd my shape is an oval \nHowever, I am not an egg \nFrom a palm tree’s where I fall", "I can be fried \nBoiled and mashed \nRoasted and baked \nScalloped and hashed", "I look like a group of \nlittle trees with stems and green leaves. \nI am very good for you. \nWho am I?", "You know me as a vegetable but I am a fruit. \nRed in colour, with seeds inside. \nYou can add me in your salad. \nI am potato’s best friend. \nWho am I?"];
-const gifs = ["./images/coconut.gif", "./images/potato.gif", "./images/broccoli.gif", "./images/tomato.gif"];
+const gifs = ["/images/coconut.gif", "/images/potato.gif", "/images/broccoli.gif", "/images/tomato.gif"];
 const ran = Math.floor(Math.random() * words.length);
 
 

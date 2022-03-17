@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <HashRouter basename='/Guessify'>
+      <HashRouter>
         <Switch>
           <Route path='/' exact component = {Home} />
           <Route path='/game-themes' exact component = {Themes} />
@@ -27,7 +27,7 @@ function App() {
           <Route path='/settings' exact component = {SettingsPage} />
           <Route path='/player-stats' exact component = {Stats} />
         </Switch>
-      </Router>
+      </HashRouter>
     </>
   );
 }

@@ -11,7 +11,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <h1>
-        <img style={{width : '90px', height : '90px', boxShadow: '5px 5px 5px #20421c'}} src='./images/logo.png' alt='Guessify'/>
+        <img style={{width : '90px', height : '90px', boxShadow: '5px 5px 5px #20421c'}} src={ process.env.PUBLIC_URL + '/images/logo.png'} alt='Guessify'/>
           &nbsp; Welcome to Guessify!
       </h1>
       <p>Can you guess all the words?</p>
