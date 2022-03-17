@@ -10,32 +10,32 @@ function ThemeSection() {
       <div className='cards__container'>
          <div className='card-items'>
             <CardItem
-                    src='./images/wilda.jpg'
+                    src= {process.env.PUBLIC_URL + '/images/wilda.jpg' }
                     text='Jungle Book'
                     path='/game-wild'
                   />
             <CardItem
-                    src='./images/farm.jpg'
+                    src={process.env.PUBLIC_URL + '/images/farm.jpg'}
                     text="McDonald's Farm"
                     path='/game-farm'
                   />  
             <CardItem
-                    src='./images/food.png'
+                    src= {process.env.PUBLIC_URL + '/images/food.png'}
                     text='Food For Thought'
                     path='/game-food'
                   />
             <CardItem
-                    src='./images/travel.jpg'
+                    src= {process.env.PUBLIC_URL + '/images/travel.jpg'}
                     text='Cities of the World'
                     path='/game-city'
                   />
             <CardItem
-                    src='./images/scientific.jpg'
+                    src= {process.env.PUBLIC_URL + '/images/scientific.jpg'}
                     text='Backyard Science'
                     path='/game-science'
                   />
             <CardItem
-                    src='./images/g.png'
+                    src= {process.env.PUBLIC_URL + '/images/g.png'}
                     text='General Knowledge'
                     path='/game-gk'
                   />

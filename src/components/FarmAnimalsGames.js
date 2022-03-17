@@ -11,7 +11,7 @@ import './FarmAnimalsGames.css';
 
 const words = ['horse', 'donkey', 'cows', 'chicken'];
 const riddles = ["I am a type of animal. \nSome say that I have a long face. \nI’m very good at running fast. \nSo, people ride me in a race.", "It's grey, but it's not a wolf, \nLong-eared, but not a rabbit, \nWith hooves, but not a cow. \nWhat is it?", "They live in a field. \nMilk is what they make. \nThey help give us leather \n and a juicy steak.", "You might be called this animal \nIf someone thinks that you’re afraid. \nThis is something that you might eat \nAs well as its eggs that it laid."];
-const gifs = ["./images/horse.gif", "./images/donkey.gif", "./images/cow.gif", "./images/chicken.gif"];
+const gifs = ["/images/horse.gif", "/images/donkey.gif", "/images/cow.gif", "/images/chicken.gif"];
 const ran = Math.floor(Math.random() * words.length);
 
 

@@ -11,7 +11,7 @@ import './WildAnimalsGame.css';
 
 const words = ['centipede', 'penguin', 'giraffe', 'hippopotamus'];
 const riddles = ["Oh how I love my dancing feet! \n They stay together - oh so neat. \nAnd when I want to walk a line. \nI count them up, ten times or more, \nAnd race on-off, across the floor.", "\nMy wings are used as flippers. \nSo in water I can swim. \nSometimes when on land. \nI slide On my belly in the snow.", "\nI like to use my long tongue \nTo eat leaves from tops of trees. \nI don’t have to climb up though. \nWith my long neck it’s a breeze.", "\nMy name comes from the Greeks and means river horse. \nI’m widely regarded as one of the most dangerous animals in Africa. \nDespite my girth and short legs, \nI can outrun humans."];
-const gifs = ["./images/gifcp.gif", "./images/gifpeng.gif", "./images/gifgiraffe.gif", "./images/gifhippo.gif"];
+const gifs = ["/images/gifcp.gif", "/images/gifpeng.gif", "/images/gifgiraffe.gif", "/images/gifhippo.gif"];
 const ran = Math.floor(Math.random() * words.length);
 
 
