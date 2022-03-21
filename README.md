@@ -1,28 +1,32 @@
 # Guessify-Word-Guessing-Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The goal of the game is to harness children’s familiarity with technology and provide a fun, interactive and visually appealing platform to develop their word building skills.  
 
-## Available Scripts
+Developed using React and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
+# UI Implementations
 
-### `npm start`
+UI Designs - [UI Designs](https://docs.google.com/document/d/1p-dvl6oNDTnqL4PZhcDOsIAZzOgQpWRwh3qJjlKJ_C8/edit).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Initializatiopn
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ - Clone the repository
+ - `npm install`
+ - `npm start` to start the application with your port number 
 
-### `npm test`
+or open directly here https://guessify-heer-kukreja.vercel.app/#/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# How to Play
 
-### `npm run build`
+Select a letter to figure out a hidden word that is answer to the riddle in a set amount of chances
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Specifications
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Display a riddle 
+- Generate a random word
+- Display word in UI with correct letters
+- Display wrong letters
+- Show notification when select a letter twice
+- Show popup on win or lose
+- Play again button to reset game
+- Show user statistics
